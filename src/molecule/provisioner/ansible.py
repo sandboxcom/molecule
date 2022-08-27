@@ -144,7 +144,7 @@ class Ansible(base.Base):
         relative parent is the $scenario_directory.
 
     The side effect playbook executes actions which produce side effects to the
-    instances(s).  Intended to test HA failover scenarios or the like.  It is
+    instance(s).  Intended to test HA failover scenarios or the like.  It is
     not enabled by default.  Add the following to the provisioner's ``playbooks``
     section to enable.
 
